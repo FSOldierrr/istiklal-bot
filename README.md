@@ -11,6 +11,7 @@ Türkçe, production kalitesinde, slash-command tabanlı Discord botu.
 ├── package.json            # Bağımlılıklar
 ├── .env.example            # Ortam değişkenleri örneği
 ├── .gitignore              # Git'in yok sayacağı dosyalar
+├── LICENSE                 # MIT lisansı
 ├── README.md               # Bu dosya
 ├── data/                   # SQLite veritabanı ve yedekler (otomatik oluşur)
 └── src/
@@ -73,3 +74,18 @@ Botun sunucuda şu izinlere (veya Yönetici iznine) ihtiyacı vardır:
 - **Bildirim Kuralı:** Üyeye uygulanan **tüm** yaptırımlarda (`/ban`, `/unban`, `/kick`, `/timeout`, `/timeout-kaldır`, `/uyar`, `/uyarı-sil`, otomatik ceza, boost sıfırlama, koruma filtresi) kullanıcıya **DM** gönderilir ve **birebir aynı mesaj** sunucunun belirlenen log kanalına yazılır.
 - **Ticket Yetkilileri:** `/setup > Ticket Yetkilileri` panelinden ticket türü başına otomatik eklenecek/etiketlenecek yetkili rolleri belirlenir.
 - **Zamanlanmış Duyuru:** `/duyur-zamanla` ile ileri bir zamana duyuru planlanır; `/duyur-iptal` ile listelenir veya iptal edilir.
+
+## Lisans
+
+Bu proje **MIT Lisansı** ile lisanslanmıştır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakın.
+
+## Kullanım İzni
+
+Bu botu kullanmak, kopyalamak veya kendi sunucunuzda barındırmak isteyenlerin önce izin alması gerekir:
+
+1. **İstiklal Discord sunucusuna** katılın → **[discord.gg/istiklal](https://discord.gg/istiklal)**
+2. **Destek talebi (ticket)** açın ve botu hangi sunucuda, ne amaçla kullanmak istediğinizi belirtin.
+3. Yetkililer izin verdikten sonra **izinli şekilde** kullanabilirsiniz.
+
+İzin alınmadan kullanım, kopyalama veya yeniden dağıtım kabul edilmez. Lisans hakkındaki tüm sorularınız için de aynı sunucudan destek açabilirsiniz.
+
